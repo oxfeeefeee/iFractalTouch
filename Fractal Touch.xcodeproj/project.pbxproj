@@ -1,0 +1,1191 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7511981916B2FEB400A93E1F /* arrow_circle_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 7511981716B2FEB400A93E1F /* arrow_circle_left.png */; };
+		7511981A16B2FEB400A93E1F /* arrow_circle_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7511981816B2FEB400A93E1F /* arrow_circle_left@2x.png */; };
+		75141B9A167CD8AF0081C199 /* defaultDB in Resources */ = {isa = PBXBuildFile; fileRef = 75141B99167CD8AF0081C199 /* defaultDB */; };
+		753172A617F4AE98006D620B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753172A517F4AE98006D620B /* Images.xcassets */; };
+		753172A717F4B1BB006D620B /* icon7.png in Resources */ = {isa = PBXBuildFile; fileRef = 753172A417F4ACAB006D620B /* icon7.png */; };
+		753172AA17F4B8B1006D620B /* icon7_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 753172A917F4B80D006D620B /* icon7_58.png */; };
+		753172AB17F4B8B1006D620B /* icon7_80.png in Resources */ = {isa = PBXBuildFile; fileRef = 753172A817F4B800006D620B /* icon7_80.png */; };
+		75397E101553C2990085D416 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75397E0F1553C2990085D416 /* UIKit.framework */; };
+		75397E121553C2990085D416 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75397E111553C2990085D416 /* Foundation.framework */; };
+		75397E141553C2990085D416 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75397E131553C2990085D416 /* CoreGraphics.framework */; };
+		75397E1A1553C2990085D416 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75397E181553C2990085D416 /* InfoPlist.strings */; };
+		75397E1C1553C2990085D416 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75397E1B1553C2990085D416 /* main.m */; };
+		75397E201553C2990085D416 /* ftAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75397E1F1553C2990085D416 /* ftAppDelegate.m */; };
+		75397E231553C2990085D416 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75397E211553C2990085D416 /* MainStoryboard.storyboard */; };
+		755B64FA16B0185C0086371A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 755B64F916B0185C0086371A /* Default-568h@2x.png */; };
+		7578AA5616BCF5F5002E465B /* ftBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7578AA5516BCF5F5002E465B /* ftBuyViewController.m */; };
+		7578AA5716BCF5F5002E465B /* ftBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7578AA5516BCF5F5002E465B /* ftBuyViewController.m */; };
+		7578AA5A16BCF8AC002E465B /* ftColorLoverBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7578AA5916BCF8AC002E465B /* ftColorLoverBuyViewController.m */; };
+		7578AA5B16BCF8AC002E465B /* ftColorLoverBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7578AA5916BCF8AC002E465B /* ftColorLoverBuyViewController.m */; };
+		7578AA6216BD271A002E465B /* blankButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7578AA6016BD271A002E465B /* blankButton.png */; };
+		7578AA6316BD271A002E465B /* blankButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7578AA6016BD271A002E465B /* blankButton.png */; };
+		7578AA6416BD271A002E465B /* blankButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7578AA6116BD271A002E465B /* blankButton@2x.png */; };
+		7578AA6516BD271A002E465B /* blankButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7578AA6116BD271A002E465B /* blankButton@2x.png */; };
+		7578AA6816BE143C002E465B /* ftSpeedingBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7578AA6716BE143C002E465B /* ftSpeedingBuyViewController.m */; };
+		7578AA6916BE143C002E465B /* ftSpeedingBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7578AA6716BE143C002E465B /* ftSpeedingBuyViewController.m */; };
+		7578AA6C16BE33A2002E465B /* ftCollectorBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7578AA6B16BE33A2002E465B /* ftCollectorBuyViewController.m */; };
+		7578AA6D16BE33A2002E465B /* ftCollectorBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7578AA6B16BE33A2002E465B /* ftCollectorBuyViewController.m */; };
+		757BA74B16B519AA00AF565A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75397E1B1553C2990085D416 /* main.m */; };
+		757BA74C16B519AA00AF565A /* ftAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75397E1F1553C2990085D416 /* ftAppDelegate.m */; };
+		757BA74D16B519AA00AF565A /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96A8A1555927900192F60 /* CoreDataTableViewController.m */; };
+		757BA74E16B519AA00AF565A /* ISTAddToFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96A8C1555927900192F60 /* ISTAddToFavoritesViewController.m */; };
+		757BA74F16B519AA00AF565A /* ISTFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96A8E1555927900192F60 /* ISTFavoritesViewController.m */; };
+		757BA75016B519AA00AF565A /* ISTFractalSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96A901555927900192F60 /* ISTFractalSettingsViewController.m */; };
+		757BA75116B519AA00AF565A /* ISTFractalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96A921555927900192F60 /* ISTFractalViewController.m */; };
+		757BA75216B519AA00AF565A /* ISTFullListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96A941555927900192F60 /* ISTFullListViewController.m */; };
+		757BA75316B519AA00AF565A /* ISTInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96A961555927900192F60 /* ISTInfoViewController.m */; };
+		757BA75416B519AA00AF565A /* ISTMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96A981555927900192F60 /* ISTMoreViewController.m */; };
+		757BA75516B519AA00AF565A /* ISTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96A9A1555927900192F60 /* ISTTableViewController.m */; };
+		757BA75616B519AA00AF565A /* ISTShaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AA7155592EC00192F60 /* ISTShaderManager.m */; };
+		757BA75716B519AA00AF565A /* ISTShaderManager+WriteDefaultData.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AA9155592EC00192F60 /* ISTShaderManager+WriteDefaultData.m */; };
+		757BA75816B519AA00AF565A /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AAA155592EC00192F60 /* Model.xcdatamodeld */; };
+		757BA75916B519AA00AF565A /* FractalPointCalcDouble.c in Sources */ = {isa = PBXBuildFile; fileRef = 75D96ABB1555934E00192F60 /* FractalPointCalcDouble.c */; };
+		757BA75A16B519AA00AF565A /* FractalPointCalcSingle.c in Sources */ = {isa = PBXBuildFile; fileRef = 75D96ABC1555934E00192F60 /* FractalPointCalcSingle.c */; };
+		757BA75B16B519AA00AF565A /* FractalSRCalc.c in Sources */ = {isa = PBXBuildFile; fileRef = 75D96ABD1555934E00192F60 /* FractalSRCalc.c */; };
+		757BA75C16B519AA00AF565A /* ISTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96ACD1555939F00192F60 /* ISTButton.m */; };
+		757BA75D16B519AA00AF565A /* ISTColorCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96ACF1555939F00192F60 /* ISTColorCalculator.m */; };
+		757BA75E16B519AA00AF565A /* ISTColorSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AD11555939F00192F60 /* ISTColorSelection.m */; };
+		757BA75F16B519AA00AF565A /* ISTDrawImageShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AD31555939F00192F60 /* ISTDrawImageShader.m */; };
+		757BA76016B519AA00AF565A /* ISTFractalHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AD51555939F00192F60 /* ISTFractalHUD.m */; };
+		757BA76116B519AA00AF565A /* ISTFractalTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AD71555939F00192F60 /* ISTFractalTile.m */; };
+		757BA76216B519AA00AF565A /* ISTGLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AD91555939F00192F60 /* ISTGLImage.m */; };
+		757BA76316B519AA00AF565A /* ISTHandMadeUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96ADB1555939F00192F60 /* ISTHandMadeUIImage.m */; };
+		757BA76416B519AA00AF565A /* ISTMegaFractal.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96ADD1555939F00192F60 /* ISTMegaFractal.m */; };
+		757BA76516B519AA00AF565A /* ISTMegaFractalShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96ADF1555939F00192F60 /* ISTMegaFractalShader.m */; };
+		757BA76616B519AA00AF565A /* ISTShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AE21555939F00192F60 /* ISTShader.m */; };
+		757BA76716B519AA00AF565A /* ISTTileGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AE41555939F00192F60 /* ISTTileGenerator.m */; };
+		757BA76816B519AA00AF565A /* ISTUIUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AF2155593AD00192F60 /* ISTUIUtility.m */; };
+		757BA76916B519AA00AF565A /* ISTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AF4155593AD00192F60 /* ISTUtility.m */; };
+		757BA76A16B519AA00AF565A /* megaFractal.fsh in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AF8155595D200192F60 /* megaFractal.fsh */; };
+		757BA76B16B519AA00AF565A /* megaFractal.vsh in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AF9155595D200192F60 /* megaFractal.vsh */; };
+		757BA76C16B519AA00AF565A /* renderImage.fsh in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AFA155595D200192F60 /* renderImage.fsh */; };
+		757BA76D16B519AA00AF565A /* renderImage.vsh in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AFB155595D200192F60 /* renderImage.vsh */; };
+		757BA76E16B519AA00AF565A /* ftExtendedHitAreaViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DDE58E155C18B800728228 /* ftExtendedHitAreaViewContainer.m */; };
+		757BA76F16B519AA00AF565A /* FractalGridCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D23D9115616A4E00F037DE /* FractalGridCalc.m */; };
+		757BA77016B519AA00AF565A /* ISTIterationSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D23D94156404D800F037DE /* ISTIterationSelection.m */; };
+		757BA77116B519AA00AF565A /* ShaderSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D23D97156559F500F037DE /* ShaderSource.m */; };
+		757BA77216B519AA00AF565A /* ftRenderTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D23DA0156BCEDE00F037DE /* ftRenderTarget.m */; };
+		757BA77316B519AA00AF565A /* ftPostProcessBlendShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D23DA5156D28C900F037DE /* ftPostProcessBlendShader.m */; };
+		757BA77416B519AA00AF565A /* ftPostProcessImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D23DA8156D2B3000F037DE /* ftPostProcessImage.m */; };
+		757BA77516B519AA00AF565A /* blendImage.fsh in Sources */ = {isa = PBXBuildFile; fileRef = 75D23DB1156D30E000F037DE /* blendImage.fsh */; };
+		757BA77616B519AA00AF565A /* blendImage.vsh in Sources */ = {isa = PBXBuildFile; fileRef = 75D23DB6156D43F400F037DE /* blendImage.vsh */; };
+		757BA77716B519AA00AF565A /* ftTextureSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F973241571D15D001F106D /* ftTextureSelection.m */; };
+		757BA77816B519AA00AF565A /* ftTilePrioritySorting.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F9732E157509B2001F106D /* ftTilePrioritySorting.m */; };
+		757BA77916B519AA00AF565A /* ftGlobalStates.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F97332157525BE001F106D /* ftGlobalStates.m */; };
+		757BA77A16B519AA00AF565A /* ftCoordsEnterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EC36AD1693129C0025D168 /* ftCoordsEnterViewController.m */; };
+		757BA77B16B519AA00AF565A /* ftTipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EC36B316932CF90025D168 /* ftTipsViewController.m */; };
+		757BA77D16B519AA00AF565A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D23D9915695A4900F037DE /* QuartzCore.framework */; };
+		757BA77E16B519AA00AF565A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D96B041555962F00192F60 /* OpenGLES.framework */; };
+		757BA77F16B519AA00AF565A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D96B021555960900192F60 /* CoreData.framework */; };
+		757BA78016B519AA00AF565A /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D96B001555960000192F60 /* GLKit.framework */; };
+		757BA78116B519AA00AF565A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75397E0F1553C2990085D416 /* UIKit.framework */; };
+		757BA78216B519AA00AF565A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75397E111553C2990085D416 /* Foundation.framework */; };
+		757BA78316B519AA00AF565A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75397E131553C2990085D416 /* CoreGraphics.framework */; };
+		757BA78516B519AA00AF565A /* blendImage.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 75D23DB6156D43F400F037DE /* blendImage.vsh */; };
+		757BA78616B519AA00AF565A /* blendImage.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 75D23DB1156D30E000F037DE /* blendImage.fsh */; };
+		757BA78716B519AA00AF565A /* megaFractal.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 75D96AF8155595D200192F60 /* megaFractal.fsh */; };
+		757BA78816B519AA00AF565A /* megaFractal.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 75D96AF9155595D200192F60 /* megaFractal.vsh */; };
+		757BA78916B519AA00AF565A /* renderImage.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 75D96AFA155595D200192F60 /* renderImage.fsh */; };
+		757BA78A16B519AA00AF565A /* renderImage.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 75D96AFB155595D200192F60 /* renderImage.vsh */; };
+		757BA78B16B519AA00AF565A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75397E181553C2990085D416 /* InfoPlist.strings */; };
+		757BA78C16B519AA00AF565A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75397E211553C2990085D416 /* MainStoryboard.storyboard */; };
+		757BA78D16B519AA00AF565A /* bookmark_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D96B0C1555A28A00192F60 /* bookmark_add@2x.png */; };
+		757BA79116B519AA00AF565A /* bookmark_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 75DDE573155C024600728228 /* bookmark_add.png */; };
+		757BA79216B519AA00AF565A /* arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 75DDE575155C03A100728228 /* arrow_left.png */; };
+		757BA79316B519AA00AF565A /* arrow_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75DDE576155C03A100728228 /* arrow_left@2x.png */; };
+		757BA79416B519AA00AF565A /* folder_bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 75DDE57D155C065D00728228 /* folder_bookmark.png */; };
+		757BA79516B519AA00AF565A /* folder_bookmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75DDE57E155C065D00728228 /* folder_bookmark@2x.png */; };
+		757BA79C16B519AA00AF565A /* structure1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D23DB4156D3AFF00F037DE /* structure1@2x.png */; };
+		757BA79D16B519AA00AF565A /* canvas2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D23DB9156E7A3C00F037DE /* canvas2@2x.png */; };
+		757BA79E16B519AA00AF565A /* japanese@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D23DBB156E7B8800F037DE /* japanese@2x.png */; };
+		757BA79F16B519AA00AF565A /* blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F973271571DE3A001F106D /* blank@2x.png */; };
+		757BA7A016B519AA00AF565A /* sand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F973341576908A001F106D /* sand@2x.png */; };
+		757BA7A116B519AA00AF565A /* defaultDB in Resources */ = {isa = PBXBuildFile; fileRef = 75141B99167CD8AF0081C199 /* defaultDB */; };
+		757BA7A216B519AA00AF565A /* canvas1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75EC369E16883FBA0025D168 /* canvas1@2x.png */; };
+		757BA7A316B519AA00AF565A /* recycle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75EC369F16883FBA0025D168 /* recycle@2x.png */; };
+		757BA7A416B519AA00AF565A /* structure2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75EC36A116883FBA0025D168 /* structure2@2x.png */; };
+		757BA7A516B519AA00AF565A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 755B64F916B0185C0086371A /* Default-568h@2x.png */; };
+		757BA7AC16B519AA00AF565A /* arrow_circle_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 7511981716B2FEB400A93E1F /* arrow_circle_left.png */; };
+		757BA7AD16B519AA00AF565A /* arrow_circle_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7511981816B2FEB400A93E1F /* arrow_circle_left@2x.png */; };
+		757BA7AE16B519AA00AF565A /* ifractaltouch.png in Resources */ = {isa = PBXBuildFile; fileRef = 757BA70D16B4F5A800AF565A /* ifractaltouch.png */; };
+		757BA83216B5283600AF565A /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 757BA83116B5283600AF565A /* iRate.m */; };
+		757BA83316B5283600AF565A /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 757BA83116B5283600AF565A /* iRate.m */; };
+		757BA83516B5289E00AF565A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757BA83416B5289E00AF565A /* StoreKit.framework */; };
+		757BA83616B528A800AF565A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757BA83416B5289E00AF565A /* StoreKit.framework */; };
+		75D23D9215616A4E00F037DE /* FractalGridCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D23D9115616A4E00F037DE /* FractalGridCalc.m */; };
+		75D23D95156404D800F037DE /* ISTIterationSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D23D94156404D800F037DE /* ISTIterationSelection.m */; };
+		75D23D98156559F500F037DE /* ShaderSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D23D97156559F500F037DE /* ShaderSource.m */; };
+		75D23D9A15695A4A00F037DE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D23D9915695A4900F037DE /* QuartzCore.framework */; };
+		75D23DA1156BCEDE00F037DE /* ftRenderTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D23DA0156BCEDE00F037DE /* ftRenderTarget.m */; };
+		75D23DA6156D28C900F037DE /* ftPostProcessBlendShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D23DA5156D28C900F037DE /* ftPostProcessBlendShader.m */; };
+		75D23DA9156D2B3100F037DE /* ftPostProcessImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D23DA8156D2B3000F037DE /* ftPostProcessImage.m */; };
+		75D23DB2156D30E000F037DE /* blendImage.fsh in Sources */ = {isa = PBXBuildFile; fileRef = 75D23DB1156D30E000F037DE /* blendImage.fsh */; };
+		75D23DB3156D343D00F037DE /* blendImage.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 75D23DB1156D30E000F037DE /* blendImage.fsh */; };
+		75D23DB5156D3AFF00F037DE /* structure1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D23DB4156D3AFF00F037DE /* structure1@2x.png */; };
+		75D23DB7156D43F400F037DE /* blendImage.vsh in Sources */ = {isa = PBXBuildFile; fileRef = 75D23DB6156D43F400F037DE /* blendImage.vsh */; };
+		75D23DB8156D447300F037DE /* blendImage.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 75D23DB6156D43F400F037DE /* blendImage.vsh */; };
+		75D23DBA156E7A3C00F037DE /* canvas2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D23DB9156E7A3C00F037DE /* canvas2@2x.png */; };
+		75D23DBC156E7B8900F037DE /* japanese@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D23DBB156E7B8800F037DE /* japanese@2x.png */; };
+		75D96A9B1555927900192F60 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96A8A1555927900192F60 /* CoreDataTableViewController.m */; };
+		75D96A9C1555927900192F60 /* ISTAddToFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96A8C1555927900192F60 /* ISTAddToFavoritesViewController.m */; };
+		75D96A9D1555927900192F60 /* ISTFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96A8E1555927900192F60 /* ISTFavoritesViewController.m */; };
+		75D96A9E1555927900192F60 /* ISTFractalSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96A901555927900192F60 /* ISTFractalSettingsViewController.m */; };
+		75D96A9F1555927900192F60 /* ISTFractalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96A921555927900192F60 /* ISTFractalViewController.m */; };
+		75D96AA01555927900192F60 /* ISTFullListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96A941555927900192F60 /* ISTFullListViewController.m */; };
+		75D96AA11555927900192F60 /* ISTInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96A961555927900192F60 /* ISTInfoViewController.m */; };
+		75D96AA21555927900192F60 /* ISTMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96A981555927900192F60 /* ISTMoreViewController.m */; };
+		75D96AA31555927900192F60 /* ISTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96A9A1555927900192F60 /* ISTTableViewController.m */; };
+		75D96AAC155592EC00192F60 /* ISTShaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AA7155592EC00192F60 /* ISTShaderManager.m */; };
+		75D96AAD155592EC00192F60 /* ISTShaderManager+WriteDefaultData.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AA9155592EC00192F60 /* ISTShaderManager+WriteDefaultData.m */; };
+		75D96AAE155592EC00192F60 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AAA155592EC00192F60 /* Model.xcdatamodeld */; };
+		75D96AC61555934E00192F60 /* FractalPointCalcDouble.c in Sources */ = {isa = PBXBuildFile; fileRef = 75D96ABB1555934E00192F60 /* FractalPointCalcDouble.c */; };
+		75D96AC71555934E00192F60 /* FractalPointCalcSingle.c in Sources */ = {isa = PBXBuildFile; fileRef = 75D96ABC1555934E00192F60 /* FractalPointCalcSingle.c */; };
+		75D96AC81555934E00192F60 /* FractalSRCalc.c in Sources */ = {isa = PBXBuildFile; fileRef = 75D96ABD1555934E00192F60 /* FractalSRCalc.c */; };
+		75D96AE51555939F00192F60 /* ISTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96ACD1555939F00192F60 /* ISTButton.m */; };
+		75D96AE61555939F00192F60 /* ISTColorCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96ACF1555939F00192F60 /* ISTColorCalculator.m */; };
+		75D96AE71555939F00192F60 /* ISTColorSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AD11555939F00192F60 /* ISTColorSelection.m */; };
+		75D96AE81555939F00192F60 /* ISTDrawImageShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AD31555939F00192F60 /* ISTDrawImageShader.m */; };
+		75D96AE91555939F00192F60 /* ISTFractalHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AD51555939F00192F60 /* ISTFractalHUD.m */; };
+		75D96AEA1555939F00192F60 /* ISTFractalTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AD71555939F00192F60 /* ISTFractalTile.m */; };
+		75D96AEB1555939F00192F60 /* ISTGLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AD91555939F00192F60 /* ISTGLImage.m */; };
+		75D96AEC1555939F00192F60 /* ISTHandMadeUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96ADB1555939F00192F60 /* ISTHandMadeUIImage.m */; };
+		75D96AED1555939F00192F60 /* ISTMegaFractal.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96ADD1555939F00192F60 /* ISTMegaFractal.m */; };
+		75D96AEE1555939F00192F60 /* ISTMegaFractalShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96ADF1555939F00192F60 /* ISTMegaFractalShader.m */; };
+		75D96AEF1555939F00192F60 /* ISTShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AE21555939F00192F60 /* ISTShader.m */; };
+		75D96AF01555939F00192F60 /* ISTTileGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AE41555939F00192F60 /* ISTTileGenerator.m */; };
+		75D96AF5155593AD00192F60 /* ISTUIUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AF2155593AD00192F60 /* ISTUIUtility.m */; };
+		75D96AF6155593AD00192F60 /* ISTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AF4155593AD00192F60 /* ISTUtility.m */; };
+		75D96AFC155595D200192F60 /* megaFractal.fsh in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AF8155595D200192F60 /* megaFractal.fsh */; };
+		75D96AFD155595D200192F60 /* megaFractal.vsh in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AF9155595D200192F60 /* megaFractal.vsh */; };
+		75D96AFE155595D200192F60 /* renderImage.fsh in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AFA155595D200192F60 /* renderImage.fsh */; };
+		75D96AFF155595D200192F60 /* renderImage.vsh in Sources */ = {isa = PBXBuildFile; fileRef = 75D96AFB155595D200192F60 /* renderImage.vsh */; };
+		75D96B011555960000192F60 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D96B001555960000192F60 /* GLKit.framework */; };
+		75D96B031555960A00192F60 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D96B021555960900192F60 /* CoreData.framework */; };
+		75D96B051555963000192F60 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D96B041555962F00192F60 /* OpenGLES.framework */; };
+		75D96B061555967400192F60 /* megaFractal.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 75D96AF8155595D200192F60 /* megaFractal.fsh */; };
+		75D96B071555967400192F60 /* megaFractal.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 75D96AF9155595D200192F60 /* megaFractal.vsh */; };
+		75D96B081555967400192F60 /* renderImage.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 75D96AFA155595D200192F60 /* renderImage.fsh */; };
+		75D96B091555967400192F60 /* renderImage.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 75D96AFB155595D200192F60 /* renderImage.vsh */; };
+		75D96B111555A28A00192F60 /* bookmark_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D96B0C1555A28A00192F60 /* bookmark_add@2x.png */; };
+		75DDE574155C024600728228 /* bookmark_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 75DDE573155C024600728228 /* bookmark_add.png */; };
+		75DDE579155C03A100728228 /* arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 75DDE575155C03A100728228 /* arrow_left.png */; };
+		75DDE57A155C03A100728228 /* arrow_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75DDE576155C03A100728228 /* arrow_left@2x.png */; };
+		75DDE57F155C065E00728228 /* folder_bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 75DDE57D155C065D00728228 /* folder_bookmark.png */; };
+		75DDE580155C065E00728228 /* folder_bookmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75DDE57E155C065D00728228 /* folder_bookmark@2x.png */; };
+		75DDE58F155C18BA00728228 /* ftExtendedHitAreaViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DDE58E155C18B800728228 /* ftExtendedHitAreaViewContainer.m */; };
+		75EC36A216883FBA0025D168 /* canvas1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75EC369E16883FBA0025D168 /* canvas1@2x.png */; };
+		75EC36A316883FBA0025D168 /* recycle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75EC369F16883FBA0025D168 /* recycle@2x.png */; };
+		75EC36A516883FBA0025D168 /* structure2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75EC36A116883FBA0025D168 /* structure2@2x.png */; };
+		75EC36AE1693129C0025D168 /* ftCoordsEnterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EC36AD1693129C0025D168 /* ftCoordsEnterViewController.m */; };
+		75EC36B416932CF90025D168 /* ftTipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EC36B316932CF90025D168 /* ftTipsViewController.m */; };
+		75F973251571D15E001F106D /* ftTextureSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F973241571D15D001F106D /* ftTextureSelection.m */; };
+		75F973281571DE3A001F106D /* blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F973271571DE3A001F106D /* blank@2x.png */; };
+		75F9732F157509B3001F106D /* ftTilePrioritySorting.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F9732E157509B2001F106D /* ftTilePrioritySorting.m */; };
+		75F97333157525BE001F106D /* ftGlobalStates.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F97332157525BE001F106D /* ftGlobalStates.m */; };
+		75F973351576908A001F106D /* sand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F973341576908A001F106D /* sand@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7511981716B2FEB400A93E1F /* arrow_circle_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_circle_left.png; path = "Fractal Touch/Resources/arrow_circle_left.png"; sourceTree = "<group>"; };
+		7511981816B2FEB400A93E1F /* arrow_circle_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow_circle_left@2x.png"; path = "Fractal Touch/Resources/arrow_circle_left@2x.png"; sourceTree = "<group>"; };
+		75141B99167CD8AF0081C199 /* defaultDB */ = {isa = PBXFileReference; lastKnownFileType = file; name = defaultDB; path = "Fractal Touch/Resources/defaultDB"; sourceTree = "<group>"; };
+		753172A417F4ACAB006D620B /* icon7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon7.png; sourceTree = "<group>"; };
+		753172A517F4AE98006D620B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Fractal Touch Free/Images.xcassets"; sourceTree = "<group>"; };
+		753172A817F4B800006D620B /* icon7_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon7_80.png; sourceTree = "<group>"; };
+		753172A917F4B80D006D620B /* icon7_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon7_58.png; sourceTree = "<group>"; };
+		75397E0B1553C2990085D416 /* iFractalTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFractalTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75397E0F1553C2990085D416 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		75397E111553C2990085D416 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75397E131553C2990085D416 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		75397E171553C2990085D416 /* Fractal Touch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Fractal Touch-Info.plist"; path = "Fractal Touch/Fractal Touch-Info.plist"; sourceTree = "<group>"; };
+		75397E191553C2990085D416 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75397E1B1553C2990085D416 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75397E1D1553C2990085D416 /* Fractal Touch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fractal Touch-Prefix.pch"; sourceTree = "<group>"; };
+		75397E1E1553C2990085D416 /* ftAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftAppDelegate.h; sourceTree = "<group>"; };
+		75397E1F1553C2990085D416 /* ftAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ftAppDelegate.m; sourceTree = "<group>"; };
+		75397E221553C2990085D416 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		755B64F916B0185C0086371A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7578AA5416BCF5F5002E465B /* ftBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftBuyViewController.h; sourceTree = "<group>"; };
+		7578AA5516BCF5F5002E465B /* ftBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ftBuyViewController.m; sourceTree = "<group>"; };
+		7578AA5816BCF8AC002E465B /* ftColorLoverBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftColorLoverBuyViewController.h; sourceTree = "<group>"; };
+		7578AA5916BCF8AC002E465B /* ftColorLoverBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ftColorLoverBuyViewController.m; sourceTree = "<group>"; };
+		7578AA6016BD271A002E465B /* blankButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blankButton.png; sourceTree = "<group>"; };
+		7578AA6116BD271A002E465B /* blankButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blankButton@2x.png"; sourceTree = "<group>"; };
+		7578AA6616BE143B002E465B /* ftSpeedingBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftSpeedingBuyViewController.h; sourceTree = "<group>"; };
+		7578AA6716BE143C002E465B /* ftSpeedingBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ftSpeedingBuyViewController.m; sourceTree = "<group>"; };
+		7578AA6A16BE33A2002E465B /* ftCollectorBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftCollectorBuyViewController.h; sourceTree = "<group>"; };
+		7578AA6B16BE33A2002E465B /* ftCollectorBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ftCollectorBuyViewController.m; sourceTree = "<group>"; };
+		757BA70D16B4F5A800AF565A /* ifractaltouch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ifractaltouch.png; sourceTree = "<group>"; };
+		757BA71016B502E600AF565A /* ifractaltouch_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ifractaltouch_57.png; sourceTree = "<group>"; };
+		757BA71216B5039A00AF565A /* ifractaltouch57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ifractaltouch57.png; sourceTree = "<group>"; };
+		757BA71416B5039C00AF565A /* ifractaltouch114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ifractaltouch114.png; sourceTree = "<group>"; };
+		757BA71616B50CDA00AF565A /* ifractaltouch-free.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ifractaltouch-free.png"; sourceTree = "<group>"; };
+		757BA74416B518B300AF565A /* ifractaltouch-free_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ifractaltouch-free_57.png"; sourceTree = "<group>"; };
+		757BA74616B518B600AF565A /* ifractaltouch-free_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ifractaltouch-free_114.png"; sourceTree = "<group>"; };
+		757BA7B716B519AA00AF565A /* iFractalTouch Free.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iFractalTouch Free.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		757BA7B916B519AB00AF565A /* Fractal Touch Free-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Fractal Touch Free-Info.plist"; path = "/Users/haowu/SkyDriveRoot/SkyDrive/code/Fractal Touch/Fractal Touch Free-Info.plist"; sourceTree = "<absolute>"; };
+		757BA83016B5283600AF565A /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
+		757BA83116B5283600AF565A /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
+		757BA83416B5289E00AF565A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		75D23D9115616A4E00F037DE /* FractalGridCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FractalGridCalc.m; sourceTree = "<group>"; };
+		75D23D93156404D700F037DE /* ISTIterationSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTIterationSelection.h; sourceTree = "<group>"; };
+		75D23D94156404D800F037DE /* ISTIterationSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTIterationSelection.m; sourceTree = "<group>"; };
+		75D23D96156559F500F037DE /* ShaderSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderSource.h; sourceTree = "<group>"; };
+		75D23D97156559F500F037DE /* ShaderSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShaderSource.m; sourceTree = "<group>"; };
+		75D23D9915695A4900F037DE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		75D23D9F156BCEDE00F037DE /* ftRenderTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftRenderTarget.h; sourceTree = "<group>"; };
+		75D23DA0156BCEDE00F037DE /* ftRenderTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ftRenderTarget.m; sourceTree = "<group>"; };
+		75D23DA4156D28C900F037DE /* ftPostProcessBlendShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftPostProcessBlendShader.h; sourceTree = "<group>"; };
+		75D23DA5156D28C900F037DE /* ftPostProcessBlendShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ftPostProcessBlendShader.m; sourceTree = "<group>"; };
+		75D23DA7156D2B2E00F037DE /* ftPostProcessImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftPostProcessImage.h; sourceTree = "<group>"; };
+		75D23DA8156D2B3000F037DE /* ftPostProcessImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ftPostProcessImage.m; sourceTree = "<group>"; };
+		75D23DB1156D30E000F037DE /* blendImage.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = blendImage.fsh; path = "Fractal Touch/blendImage.fsh"; sourceTree = "<group>"; };
+		75D23DB4156D3AFF00F037DE /* structure1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "structure1@2x.png"; path = "Fractal Touch/Resources/structure1@2x.png"; sourceTree = "<group>"; };
+		75D23DB6156D43F400F037DE /* blendImage.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = blendImage.vsh; path = "Fractal Touch/blendImage.vsh"; sourceTree = "<group>"; };
+		75D23DB9156E7A3C00F037DE /* canvas2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "canvas2@2x.png"; path = "Fractal Touch/Resources/canvas2@2x.png"; sourceTree = "<group>"; };
+		75D23DBB156E7B8800F037DE /* japanese@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "japanese@2x.png"; path = "Fractal Touch/Resources/japanese@2x.png"; sourceTree = "<group>"; };
+		75D96A891555927900192F60 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		75D96A8A1555927900192F60 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		75D96A8B1555927900192F60 /* ISTAddToFavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTAddToFavoritesViewController.h; sourceTree = "<group>"; };
+		75D96A8C1555927900192F60 /* ISTAddToFavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTAddToFavoritesViewController.m; sourceTree = "<group>"; };
+		75D96A8D1555927900192F60 /* ISTFavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTFavoritesViewController.h; sourceTree = "<group>"; };
+		75D96A8E1555927900192F60 /* ISTFavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTFavoritesViewController.m; sourceTree = "<group>"; };
+		75D96A8F1555927900192F60 /* ISTFractalSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTFractalSettingsViewController.h; sourceTree = "<group>"; };
+		75D96A901555927900192F60 /* ISTFractalSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTFractalSettingsViewController.m; sourceTree = "<group>"; };
+		75D96A911555927900192F60 /* ISTFractalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTFractalViewController.h; sourceTree = "<group>"; };
+		75D96A921555927900192F60 /* ISTFractalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTFractalViewController.m; sourceTree = "<group>"; };
+		75D96A931555927900192F60 /* ISTFullListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTFullListViewController.h; sourceTree = "<group>"; };
+		75D96A941555927900192F60 /* ISTFullListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTFullListViewController.m; sourceTree = "<group>"; };
+		75D96A951555927900192F60 /* ISTInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTInfoViewController.h; sourceTree = "<group>"; };
+		75D96A961555927900192F60 /* ISTInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTInfoViewController.m; sourceTree = "<group>"; };
+		75D96A971555927900192F60 /* ISTMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTMoreViewController.h; sourceTree = "<group>"; };
+		75D96A981555927900192F60 /* ISTMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTMoreViewController.m; sourceTree = "<group>"; };
+		75D96A991555927900192F60 /* ISTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTTableViewController.h; sourceTree = "<group>"; };
+		75D96A9A1555927900192F60 /* ISTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTTableViewController.m; sourceTree = "<group>"; };
+		75D96AA6155592EC00192F60 /* ISTShaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTShaderManager.h; sourceTree = "<group>"; };
+		75D96AA7155592EC00192F60 /* ISTShaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTShaderManager.m; sourceTree = "<group>"; };
+		75D96AA8155592EC00192F60 /* ISTShaderManager+WriteDefaultData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ISTShaderManager+WriteDefaultData.h"; sourceTree = "<group>"; };
+		75D96AA9155592EC00192F60 /* ISTShaderManager+WriteDefaultData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ISTShaderManager+WriteDefaultData.m"; sourceTree = "<group>"; };
+		75D96AAB155592EC00192F60 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		75D96ABA1555934E00192F60 /* FractalGridCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FractalGridCalc.h; sourceTree = "<group>"; };
+		75D96ABB1555934E00192F60 /* FractalPointCalcDouble.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FractalPointCalcDouble.c; sourceTree = "<group>"; };
+		75D96ABC1555934E00192F60 /* FractalPointCalcSingle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FractalPointCalcSingle.c; sourceTree = "<group>"; };
+		75D96ABD1555934E00192F60 /* FractalSRCalc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FractalSRCalc.c; sourceTree = "<group>"; };
+		75D96ABE1555934E00192F60 /* FractalSRCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FractalSRCalc.h; sourceTree = "<group>"; };
+		75D96ACC1555939F00192F60 /* ISTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTButton.h; sourceTree = "<group>"; };
+		75D96ACD1555939F00192F60 /* ISTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTButton.m; sourceTree = "<group>"; };
+		75D96ACE1555939F00192F60 /* ISTColorCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTColorCalculator.h; sourceTree = "<group>"; };
+		75D96ACF1555939F00192F60 /* ISTColorCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTColorCalculator.m; sourceTree = "<group>"; };
+		75D96AD01555939F00192F60 /* ISTColorSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTColorSelection.h; sourceTree = "<group>"; };
+		75D96AD11555939F00192F60 /* ISTColorSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTColorSelection.m; sourceTree = "<group>"; };
+		75D96AD21555939F00192F60 /* ISTDrawImageShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTDrawImageShader.h; sourceTree = "<group>"; };
+		75D96AD31555939F00192F60 /* ISTDrawImageShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTDrawImageShader.m; sourceTree = "<group>"; };
+		75D96AD41555939F00192F60 /* ISTFractalHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTFractalHUD.h; sourceTree = "<group>"; };
+		75D96AD51555939F00192F60 /* ISTFractalHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTFractalHUD.m; sourceTree = "<group>"; };
+		75D96AD61555939F00192F60 /* ISTFractalTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTFractalTile.h; sourceTree = "<group>"; };
+		75D96AD71555939F00192F60 /* ISTFractalTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTFractalTile.m; sourceTree = "<group>"; };
+		75D96AD81555939F00192F60 /* ISTGLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTGLImage.h; sourceTree = "<group>"; };
+		75D96AD91555939F00192F60 /* ISTGLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTGLImage.m; sourceTree = "<group>"; };
+		75D96ADA1555939F00192F60 /* ISTHandMadeUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTHandMadeUIImage.h; sourceTree = "<group>"; };
+		75D96ADB1555939F00192F60 /* ISTHandMadeUIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTHandMadeUIImage.m; sourceTree = "<group>"; };
+		75D96ADC1555939F00192F60 /* ISTMegaFractal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTMegaFractal.h; sourceTree = "<group>"; };
+		75D96ADD1555939F00192F60 /* ISTMegaFractal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTMegaFractal.m; sourceTree = "<group>"; };
+		75D96ADE1555939F00192F60 /* ISTMegaFractalShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTMegaFractalShader.h; sourceTree = "<group>"; };
+		75D96ADF1555939F00192F60 /* ISTMegaFractalShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTMegaFractalShader.m; sourceTree = "<group>"; };
+		75D96AE01555939F00192F60 /* ISTOpenglDrawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTOpenglDrawable.h; sourceTree = "<group>"; };
+		75D96AE11555939F00192F60 /* ISTShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTShader.h; sourceTree = "<group>"; };
+		75D96AE21555939F00192F60 /* ISTShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTShader.m; sourceTree = "<group>"; };
+		75D96AE31555939F00192F60 /* ISTTileGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTTileGenerator.h; sourceTree = "<group>"; };
+		75D96AE41555939F00192F60 /* ISTTileGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTTileGenerator.m; sourceTree = "<group>"; };
+		75D96AF1155593AD00192F60 /* ISTUIUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTUIUtility.h; sourceTree = "<group>"; };
+		75D96AF2155593AD00192F60 /* ISTUIUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTUIUtility.m; sourceTree = "<group>"; };
+		75D96AF3155593AD00192F60 /* ISTUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTUtility.h; sourceTree = "<group>"; };
+		75D96AF4155593AD00192F60 /* ISTUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTUtility.m; sourceTree = "<group>"; };
+		75D96AF8155595D200192F60 /* megaFractal.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = megaFractal.fsh; path = "Fractal Touch/megaFractal.fsh"; sourceTree = "<group>"; };
+		75D96AF9155595D200192F60 /* megaFractal.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = megaFractal.vsh; path = "Fractal Touch/megaFractal.vsh"; sourceTree = "<group>"; };
+		75D96AFA155595D200192F60 /* renderImage.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = renderImage.fsh; path = "Fractal Touch/renderImage.fsh"; sourceTree = "<group>"; };
+		75D96AFB155595D200192F60 /* renderImage.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = renderImage.vsh; path = "Fractal Touch/renderImage.vsh"; sourceTree = "<group>"; };
+		75D96B001555960000192F60 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		75D96B021555960900192F60 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		75D96B041555962F00192F60 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		75D96B0C1555A28A00192F60 /* bookmark_add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bookmark_add@2x.png"; path = "Fractal Touch/Resources/bookmark_add@2x.png"; sourceTree = "<group>"; };
+		75DDE573155C024600728228 /* bookmark_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bookmark_add.png; path = "Fractal Touch/Resources/bookmark_add.png"; sourceTree = "<group>"; };
+		75DDE575155C03A100728228 /* arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_left.png; path = "Fractal Touch/Resources/arrow_left.png"; sourceTree = "<group>"; };
+		75DDE576155C03A100728228 /* arrow_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow_left@2x.png"; path = "Fractal Touch/Resources/arrow_left@2x.png"; sourceTree = "<group>"; };
+		75DDE57D155C065D00728228 /* folder_bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = folder_bookmark.png; path = "Fractal Touch/Resources/folder_bookmark.png"; sourceTree = "<group>"; };
+		75DDE57E155C065D00728228 /* folder_bookmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "folder_bookmark@2x.png"; path = "Fractal Touch/Resources/folder_bookmark@2x.png"; sourceTree = "<group>"; };
+		75DDE58D155C18B800728228 /* ftExtendedHitAreaViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftExtendedHitAreaViewContainer.h; sourceTree = "<group>"; };
+		75DDE58E155C18B800728228 /* ftExtendedHitAreaViewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ftExtendedHitAreaViewContainer.m; sourceTree = "<group>"; };
+		75EC369E16883FBA0025D168 /* canvas1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "canvas1@2x.png"; path = "Fractal Touch/Resources/canvas1@2x.png"; sourceTree = "<group>"; };
+		75EC369F16883FBA0025D168 /* recycle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "recycle@2x.png"; path = "Fractal Touch/Resources/recycle@2x.png"; sourceTree = "<group>"; };
+		75EC36A116883FBA0025D168 /* structure2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "structure2@2x.png"; path = "Fractal Touch/Resources/structure2@2x.png"; sourceTree = "<group>"; };
+		75EC36AC1693129C0025D168 /* ftCoordsEnterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftCoordsEnterViewController.h; sourceTree = "<group>"; };
+		75EC36AD1693129C0025D168 /* ftCoordsEnterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ftCoordsEnterViewController.m; sourceTree = "<group>"; };
+		75EC36B216932CF90025D168 /* ftTipsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftTipsViewController.h; sourceTree = "<group>"; };
+		75EC36B316932CF90025D168 /* ftTipsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ftTipsViewController.m; sourceTree = "<group>"; };
+		75F973231571D15D001F106D /* ftTextureSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftTextureSelection.h; sourceTree = "<group>"; };
+		75F973241571D15D001F106D /* ftTextureSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ftTextureSelection.m; sourceTree = "<group>"; };
+		75F973271571DE3A001F106D /* blank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blank@2x.png"; path = "Fractal Touch/Resources/blank@2x.png"; sourceTree = "<group>"; };
+		75F9732D157509B2001F106D /* ftTilePrioritySorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftTilePrioritySorting.h; sourceTree = "<group>"; };
+		75F9732E157509B2001F106D /* ftTilePrioritySorting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ftTilePrioritySorting.m; sourceTree = "<group>"; };
+		75F97331157525BE001F106D /* ftGlobalStates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftGlobalStates.h; sourceTree = "<group>"; };
+		75F97332157525BE001F106D /* ftGlobalStates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ftGlobalStates.m; sourceTree = "<group>"; };
+		75F973341576908A001F106D /* sand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sand@2x.png"; path = "Fractal Touch/Resources/sand@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75397E081553C2990085D416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757BA83616B528A800AF565A /* StoreKit.framework in Frameworks */,
+				75D23D9A15695A4A00F037DE /* QuartzCore.framework in Frameworks */,
+				75D96B051555963000192F60 /* OpenGLES.framework in Frameworks */,
+				75D96B031555960A00192F60 /* CoreData.framework in Frameworks */,
+				75D96B011555960000192F60 /* GLKit.framework in Frameworks */,
+				75397E101553C2990085D416 /* UIKit.framework in Frameworks */,
+				75397E121553C2990085D416 /* Foundation.framework in Frameworks */,
+				75397E141553C2990085D416 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757BA77C16B519AA00AF565A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757BA83516B5289E00AF565A /* StoreKit.framework in Frameworks */,
+				757BA77D16B519AA00AF565A /* QuartzCore.framework in Frameworks */,
+				757BA77E16B519AA00AF565A /* OpenGLES.framework in Frameworks */,
+				757BA77F16B519AA00AF565A /* CoreData.framework in Frameworks */,
+				757BA78016B519AA00AF565A /* GLKit.framework in Frameworks */,
+				757BA78116B519AA00AF565A /* UIKit.framework in Frameworks */,
+				757BA78216B519AA00AF565A /* Foundation.framework in Frameworks */,
+				757BA78316B519AA00AF565A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75397E001553C2990085D416 = {
+			isa = PBXGroup;
+			children = (
+				753172A917F4B80D006D620B /* icon7_58.png */,
+				753172A817F4B800006D620B /* icon7_80.png */,
+				753172A417F4ACAB006D620B /* icon7.png */,
+				757BA83416B5289E00AF565A /* StoreKit.framework */,
+				75397E151553C2990085D416 /* Fractal Touch */,
+				75397E0E1553C2990085D416 /* Frameworks */,
+				75D96AF71555957D00192F60 /* Resources */,
+				75397E0C1553C2990085D416 /* Products */,
+				75397E171553C2990085D416 /* Fractal Touch-Info.plist */,
+				757BA7B916B519AB00AF565A /* Fractal Touch Free-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		75397E0C1553C2990085D416 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75397E0B1553C2990085D416 /* iFractalTouch.app */,
+				757BA7B716B519AA00AF565A /* iFractalTouch Free.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75397E0E1553C2990085D416 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75D23D9915695A4900F037DE /* QuartzCore.framework */,
+				75D96B041555962F00192F60 /* OpenGLES.framework */,
+				75D96B021555960900192F60 /* CoreData.framework */,
+				75D96B001555960000192F60 /* GLKit.framework */,
+				75397E0F1553C2990085D416 /* UIKit.framework */,
+				75397E111553C2990085D416 /* Foundation.framework */,
+				75397E131553C2990085D416 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75397E151553C2990085D416 /* Fractal Touch */ = {
+			isa = PBXGroup;
+			children = (
+				75D96AB11555931800192F60 /* FractalCalc */,
+				75D23DA3156D287A00F037DE /* Shaders */,
+				75D96AAF155592FB00192F60 /* FractalRendering */,
+				75D96AA5155592AF00192F60 /* CoreData */,
+				75397E301553C78E0085D416 /* UIKit */,
+				75D96AB01555931000192F60 /* Misc */,
+				75397E161553C2990085D416 /* Supporting Files */,
+			);
+			path = "Fractal Touch";
+			sourceTree = "<group>";
+		};
+		75397E161553C2990085D416 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75397E1E1553C2990085D416 /* ftAppDelegate.h */,
+				75397E1F1553C2990085D416 /* ftAppDelegate.m */,
+				75397E181553C2990085D416 /* InfoPlist.strings */,
+				75397E1B1553C2990085D416 /* main.m */,
+				75397E1D1553C2990085D416 /* Fractal Touch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75397E301553C78E0085D416 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				7578AA5316BCF503002E465B /* Text&BuyStuff */,
+				75D96A971555927900192F60 /* ISTMoreViewController.h */,
+				75D96A981555927900192F60 /* ISTMoreViewController.m */,
+				75D96A911555927900192F60 /* ISTFractalViewController.h */,
+				75D96A921555927900192F60 /* ISTFractalViewController.m */,
+				75D96A8F1555927900192F60 /* ISTFractalSettingsViewController.h */,
+				75D96A901555927900192F60 /* ISTFractalSettingsViewController.m */,
+				75397E211553C2990085D416 /* MainStoryboard.storyboard */,
+				75D96A891555927900192F60 /* CoreDataTableViewController.h */,
+				75D96A8A1555927900192F60 /* CoreDataTableViewController.m */,
+				75D96A8B1555927900192F60 /* ISTAddToFavoritesViewController.h */,
+				75D96A8C1555927900192F60 /* ISTAddToFavoritesViewController.m */,
+				75D96A8D1555927900192F60 /* ISTFavoritesViewController.h */,
+				75D96A8E1555927900192F60 /* ISTFavoritesViewController.m */,
+				75D96A931555927900192F60 /* ISTFullListViewController.h */,
+				75D96A941555927900192F60 /* ISTFullListViewController.m */,
+				75D96A951555927900192F60 /* ISTInfoViewController.h */,
+				75D96A961555927900192F60 /* ISTInfoViewController.m */,
+				75D96A991555927900192F60 /* ISTTableViewController.h */,
+				75D96A9A1555927900192F60 /* ISTTableViewController.m */,
+				75DDE58D155C18B800728228 /* ftExtendedHitAreaViewContainer.h */,
+				75DDE58E155C18B800728228 /* ftExtendedHitAreaViewContainer.m */,
+				75EC36AC1693129C0025D168 /* ftCoordsEnterViewController.h */,
+				75EC36AD1693129C0025D168 /* ftCoordsEnterViewController.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		7578AA5316BCF503002E465B /* Text&BuyStuff */ = {
+			isa = PBXGroup;
+			children = (
+				75EC36B216932CF90025D168 /* ftTipsViewController.h */,
+				75EC36B316932CF90025D168 /* ftTipsViewController.m */,
+				7578AA5416BCF5F5002E465B /* ftBuyViewController.h */,
+				7578AA5516BCF5F5002E465B /* ftBuyViewController.m */,
+				7578AA5816BCF8AC002E465B /* ftColorLoverBuyViewController.h */,
+				7578AA5916BCF8AC002E465B /* ftColorLoverBuyViewController.m */,
+				7578AA6616BE143B002E465B /* ftSpeedingBuyViewController.h */,
+				7578AA6716BE143C002E465B /* ftSpeedingBuyViewController.m */,
+				7578AA6A16BE33A2002E465B /* ftCollectorBuyViewController.h */,
+				7578AA6B16BE33A2002E465B /* ftCollectorBuyViewController.m */,
+			);
+			name = "Text&BuyStuff";
+			sourceTree = "<group>";
+		};
+		757BA74816B5193700AF565A /* bigger images */ = {
+			isa = PBXGroup;
+			children = (
+				757BA74616B518B600AF565A /* ifractaltouch-free_114.png */,
+				757BA74416B518B300AF565A /* ifractaltouch-free_57.png */,
+				757BA71616B50CDA00AF565A /* ifractaltouch-free.png */,
+				757BA71416B5039C00AF565A /* ifractaltouch114.png */,
+				757BA71216B5039A00AF565A /* ifractaltouch57.png */,
+				757BA71016B502E600AF565A /* ifractaltouch_57.png */,
+				757BA70D16B4F5A800AF565A /* ifractaltouch.png */,
+				755B64F916B0185C0086371A /* Default-568h@2x.png */,
+			);
+			name = "bigger images";
+			sourceTree = "<group>";
+		};
+		75D23DA3156D287A00F037DE /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				75D96AD21555939F00192F60 /* ISTDrawImageShader.h */,
+				75D96AD31555939F00192F60 /* ISTDrawImageShader.m */,
+				75D96ADE1555939F00192F60 /* ISTMegaFractalShader.h */,
+				75D96ADF1555939F00192F60 /* ISTMegaFractalShader.m */,
+				75D23DA4156D28C900F037DE /* ftPostProcessBlendShader.h */,
+				75D23DA5156D28C900F037DE /* ftPostProcessBlendShader.m */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		75D96AA5155592AF00192F60 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				75D96AA6155592EC00192F60 /* ISTShaderManager.h */,
+				75D96AA7155592EC00192F60 /* ISTShaderManager.m */,
+				75D96AA8155592EC00192F60 /* ISTShaderManager+WriteDefaultData.h */,
+				75D96AA9155592EC00192F60 /* ISTShaderManager+WriteDefaultData.m */,
+				75D96AAA155592EC00192F60 /* Model.xcdatamodeld */,
+				75D23D96156559F500F037DE /* ShaderSource.h */,
+				75D23D97156559F500F037DE /* ShaderSource.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		75D96AAF155592FB00192F60 /* FractalRendering */ = {
+			isa = PBXGroup;
+			children = (
+				75F9732D157509B2001F106D /* ftTilePrioritySorting.h */,
+				75F9732E157509B2001F106D /* ftTilePrioritySorting.m */,
+				75D96ACC1555939F00192F60 /* ISTButton.h */,
+				75D96ACD1555939F00192F60 /* ISTButton.m */,
+				75D96ACE1555939F00192F60 /* ISTColorCalculator.h */,
+				75D96ACF1555939F00192F60 /* ISTColorCalculator.m */,
+				75D96AD01555939F00192F60 /* ISTColorSelection.h */,
+				75D96AD11555939F00192F60 /* ISTColorSelection.m */,
+				75D23D93156404D700F037DE /* ISTIterationSelection.h */,
+				75D23D94156404D800F037DE /* ISTIterationSelection.m */,
+				75F973231571D15D001F106D /* ftTextureSelection.h */,
+				75F973241571D15D001F106D /* ftTextureSelection.m */,
+				75D96AD41555939F00192F60 /* ISTFractalHUD.h */,
+				75D96AD51555939F00192F60 /* ISTFractalHUD.m */,
+				75D96AD61555939F00192F60 /* ISTFractalTile.h */,
+				75D96AD71555939F00192F60 /* ISTFractalTile.m */,
+				75D96AD81555939F00192F60 /* ISTGLImage.h */,
+				75D96AD91555939F00192F60 /* ISTGLImage.m */,
+				75D96ADA1555939F00192F60 /* ISTHandMadeUIImage.h */,
+				75D96ADB1555939F00192F60 /* ISTHandMadeUIImage.m */,
+				75D96ADC1555939F00192F60 /* ISTMegaFractal.h */,
+				75D96ADD1555939F00192F60 /* ISTMegaFractal.m */,
+				75D96AE01555939F00192F60 /* ISTOpenglDrawable.h */,
+				75D96AE11555939F00192F60 /* ISTShader.h */,
+				75D96AE21555939F00192F60 /* ISTShader.m */,
+				75D96AE31555939F00192F60 /* ISTTileGenerator.h */,
+				75D96AE41555939F00192F60 /* ISTTileGenerator.m */,
+				75D23D9F156BCEDE00F037DE /* ftRenderTarget.h */,
+				75D23DA0156BCEDE00F037DE /* ftRenderTarget.m */,
+				75D23DA7156D2B2E00F037DE /* ftPostProcessImage.h */,
+				75D23DA8156D2B3000F037DE /* ftPostProcessImage.m */,
+			);
+			name = FractalRendering;
+			sourceTree = "<group>";
+		};
+		75D96AB01555931000192F60 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				757BA83016B5283600AF565A /* iRate.h */,
+				757BA83116B5283600AF565A /* iRate.m */,
+				75D96AF1155593AD00192F60 /* ISTUIUtility.h */,
+				75D96AF2155593AD00192F60 /* ISTUIUtility.m */,
+				75D96AF3155593AD00192F60 /* ISTUtility.h */,
+				75D96AF4155593AD00192F60 /* ISTUtility.m */,
+				75F97331157525BE001F106D /* ftGlobalStates.h */,
+				75F97332157525BE001F106D /* ftGlobalStates.m */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		75D96AB11555931800192F60 /* FractalCalc */ = {
+			isa = PBXGroup;
+			children = (
+				75D23D9115616A4E00F037DE /* FractalGridCalc.m */,
+				75D96ABA1555934E00192F60 /* FractalGridCalc.h */,
+				75D96ABB1555934E00192F60 /* FractalPointCalcDouble.c */,
+				75D96ABC1555934E00192F60 /* FractalPointCalcSingle.c */,
+				75D96ABD1555934E00192F60 /* FractalSRCalc.c */,
+				75D96ABE1555934E00192F60 /* FractalSRCalc.h */,
+			);
+			name = FractalCalc;
+			sourceTree = "<group>";
+		};
+		75D96AF71555957D00192F60 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				753172A517F4AE98006D620B /* Images.xcassets */,
+				757BA74816B5193700AF565A /* bigger images */,
+				75141B99167CD8AF0081C199 /* defaultDB */,
+				75D96B0A1555A26100192F60 /* Images */,
+				75D23DB6156D43F400F037DE /* blendImage.vsh */,
+				75D23DB1156D30E000F037DE /* blendImage.fsh */,
+				75D96AF8155595D200192F60 /* megaFractal.fsh */,
+				75D96AF9155595D200192F60 /* megaFractal.vsh */,
+				75D96AFA155595D200192F60 /* renderImage.fsh */,
+				75D96AFB155595D200192F60 /* renderImage.vsh */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		75D96B0A1555A26100192F60 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7578AA6016BD271A002E465B /* blankButton.png */,
+				7578AA6116BD271A002E465B /* blankButton@2x.png */,
+				7511981716B2FEB400A93E1F /* arrow_circle_left.png */,
+				7511981816B2FEB400A93E1F /* arrow_circle_left@2x.png */,
+				75EC369E16883FBA0025D168 /* canvas1@2x.png */,
+				75EC369F16883FBA0025D168 /* recycle@2x.png */,
+				75EC36A116883FBA0025D168 /* structure2@2x.png */,
+				75F973341576908A001F106D /* sand@2x.png */,
+				75F973271571DE3A001F106D /* blank@2x.png */,
+				75D23DBB156E7B8800F037DE /* japanese@2x.png */,
+				75D23DB9156E7A3C00F037DE /* canvas2@2x.png */,
+				75D23DB4156D3AFF00F037DE /* structure1@2x.png */,
+				75DDE57D155C065D00728228 /* folder_bookmark.png */,
+				75DDE57E155C065D00728228 /* folder_bookmark@2x.png */,
+				75DDE575155C03A100728228 /* arrow_left.png */,
+				75DDE576155C03A100728228 /* arrow_left@2x.png */,
+				75DDE573155C024600728228 /* bookmark_add.png */,
+				75D96B0C1555A28A00192F60 /* bookmark_add@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75397E0A1553C2990085D416 /* Fractal Touch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75397E291553C29A0085D416 /* Build configuration list for PBXNativeTarget "Fractal Touch" */;
+			buildPhases = (
+				75397E071553C2990085D416 /* Sources */,
+				75397E081553C2990085D416 /* Frameworks */,
+				75397E091553C2990085D416 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fractal Touch";
+			productName = "Fractal Touch";
+			productReference = 75397E0B1553C2990085D416 /* iFractalTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		757BA74916B519AA00AF565A /* Fractal Touch Free */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 757BA7B316B519AA00AF565A /* Build configuration list for PBXNativeTarget "Fractal Touch Free" */;
+			buildPhases = (
+				757BA74A16B519AA00AF565A /* Sources */,
+				757BA77C16B519AA00AF565A /* Frameworks */,
+				757BA78416B519AA00AF565A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fractal Touch Free";
+			productName = "Fractal Touch";
+			productReference = 757BA7B716B519AA00AF565A /* iFractalTouch Free.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75397E021553C2990085D416 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ft;
+				LastUpgradeCheck = 0710;
+				TargetAttributes = {
+					75397E0A1553C2990085D416 = {
+						DevelopmentTeam = VQ2JLR3V7F;
+					};
+				};
+			};
+			buildConfigurationList = 75397E051553C2990085D416 /* Build configuration list for PBXProject "Fractal Touch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 75397E001553C2990085D416;
+			productRefGroup = 75397E0C1553C2990085D416 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75397E0A1553C2990085D416 /* Fractal Touch */,
+				757BA74916B519AA00AF565A /* Fractal Touch Free */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75397E091553C2990085D416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753172AA17F4B8B1006D620B /* icon7_58.png in Resources */,
+				753172AB17F4B8B1006D620B /* icon7_80.png in Resources */,
+				753172A717F4B1BB006D620B /* icon7.png in Resources */,
+				75D23DB8156D447300F037DE /* blendImage.vsh in Resources */,
+				75D23DB3156D343D00F037DE /* blendImage.fsh in Resources */,
+				75D96B061555967400192F60 /* megaFractal.fsh in Resources */,
+				75D96B071555967400192F60 /* megaFractal.vsh in Resources */,
+				75D96B081555967400192F60 /* renderImage.fsh in Resources */,
+				75D96B091555967400192F60 /* renderImage.vsh in Resources */,
+				75397E1A1553C2990085D416 /* InfoPlist.strings in Resources */,
+				75397E231553C2990085D416 /* MainStoryboard.storyboard in Resources */,
+				75D96B111555A28A00192F60 /* bookmark_add@2x.png in Resources */,
+				75DDE574155C024600728228 /* bookmark_add.png in Resources */,
+				75DDE579155C03A100728228 /* arrow_left.png in Resources */,
+				75DDE57A155C03A100728228 /* arrow_left@2x.png in Resources */,
+				75DDE57F155C065E00728228 /* folder_bookmark.png in Resources */,
+				75DDE580155C065E00728228 /* folder_bookmark@2x.png in Resources */,
+				75D23DB5156D3AFF00F037DE /* structure1@2x.png in Resources */,
+				75D23DBA156E7A3C00F037DE /* canvas2@2x.png in Resources */,
+				75D23DBC156E7B8900F037DE /* japanese@2x.png in Resources */,
+				75F973281571DE3A001F106D /* blank@2x.png in Resources */,
+				75F973351576908A001F106D /* sand@2x.png in Resources */,
+				75141B9A167CD8AF0081C199 /* defaultDB in Resources */,
+				75EC36A216883FBA0025D168 /* canvas1@2x.png in Resources */,
+				75EC36A316883FBA0025D168 /* recycle@2x.png in Resources */,
+				75EC36A516883FBA0025D168 /* structure2@2x.png in Resources */,
+				755B64FA16B0185C0086371A /* Default-568h@2x.png in Resources */,
+				7511981916B2FEB400A93E1F /* arrow_circle_left.png in Resources */,
+				7511981A16B2FEB400A93E1F /* arrow_circle_left@2x.png in Resources */,
+				7578AA6216BD271A002E465B /* blankButton.png in Resources */,
+				7578AA6416BD271A002E465B /* blankButton@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757BA78416B519AA00AF565A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757BA78516B519AA00AF565A /* blendImage.vsh in Resources */,
+				757BA78616B519AA00AF565A /* blendImage.fsh in Resources */,
+				757BA78716B519AA00AF565A /* megaFractal.fsh in Resources */,
+				757BA78816B519AA00AF565A /* megaFractal.vsh in Resources */,
+				757BA78916B519AA00AF565A /* renderImage.fsh in Resources */,
+				757BA78A16B519AA00AF565A /* renderImage.vsh in Resources */,
+				757BA78B16B519AA00AF565A /* InfoPlist.strings in Resources */,
+				757BA78C16B519AA00AF565A /* MainStoryboard.storyboard in Resources */,
+				757BA78D16B519AA00AF565A /* bookmark_add@2x.png in Resources */,
+				757BA79116B519AA00AF565A /* bookmark_add.png in Resources */,
+				757BA79216B519AA00AF565A /* arrow_left.png in Resources */,
+				757BA79316B519AA00AF565A /* arrow_left@2x.png in Resources */,
+				757BA79416B519AA00AF565A /* folder_bookmark.png in Resources */,
+				757BA79516B519AA00AF565A /* folder_bookmark@2x.png in Resources */,
+				757BA79C16B519AA00AF565A /* structure1@2x.png in Resources */,
+				757BA79D16B519AA00AF565A /* canvas2@2x.png in Resources */,
+				757BA79E16B519AA00AF565A /* japanese@2x.png in Resources */,
+				757BA79F16B519AA00AF565A /* blank@2x.png in Resources */,
+				757BA7A016B519AA00AF565A /* sand@2x.png in Resources */,
+				757BA7A116B519AA00AF565A /* defaultDB in Resources */,
+				757BA7A216B519AA00AF565A /* canvas1@2x.png in Resources */,
+				753172A617F4AE98006D620B /* Images.xcassets in Resources */,
+				757BA7A316B519AA00AF565A /* recycle@2x.png in Resources */,
+				757BA7A416B519AA00AF565A /* structure2@2x.png in Resources */,
+				757BA7A516B519AA00AF565A /* Default-568h@2x.png in Resources */,
+				757BA7AC16B519AA00AF565A /* arrow_circle_left.png in Resources */,
+				757BA7AD16B519AA00AF565A /* arrow_circle_left@2x.png in Resources */,
+				757BA7AE16B519AA00AF565A /* ifractaltouch.png in Resources */,
+				7578AA6316BD271A002E465B /* blankButton.png in Resources */,
+				7578AA6516BD271A002E465B /* blankButton@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75397E071553C2990085D416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75397E1C1553C2990085D416 /* main.m in Sources */,
+				75397E201553C2990085D416 /* ftAppDelegate.m in Sources */,
+				75D96A9B1555927900192F60 /* CoreDataTableViewController.m in Sources */,
+				75D96A9C1555927900192F60 /* ISTAddToFavoritesViewController.m in Sources */,
+				75D96A9D1555927900192F60 /* ISTFavoritesViewController.m in Sources */,
+				75D96A9E1555927900192F60 /* ISTFractalSettingsViewController.m in Sources */,
+				75D96A9F1555927900192F60 /* ISTFractalViewController.m in Sources */,
+				75D96AA01555927900192F60 /* ISTFullListViewController.m in Sources */,
+				75D96AA11555927900192F60 /* ISTInfoViewController.m in Sources */,
+				75D96AA21555927900192F60 /* ISTMoreViewController.m in Sources */,
+				75D96AA31555927900192F60 /* ISTTableViewController.m in Sources */,
+				75D96AAC155592EC00192F60 /* ISTShaderManager.m in Sources */,
+				75D96AAD155592EC00192F60 /* ISTShaderManager+WriteDefaultData.m in Sources */,
+				75D96AAE155592EC00192F60 /* Model.xcdatamodeld in Sources */,
+				75D96AC61555934E00192F60 /* FractalPointCalcDouble.c in Sources */,
+				75D96AC71555934E00192F60 /* FractalPointCalcSingle.c in Sources */,
+				75D96AC81555934E00192F60 /* FractalSRCalc.c in Sources */,
+				75D96AE51555939F00192F60 /* ISTButton.m in Sources */,
+				75D96AE61555939F00192F60 /* ISTColorCalculator.m in Sources */,
+				75D96AE71555939F00192F60 /* ISTColorSelection.m in Sources */,
+				75D96AE81555939F00192F60 /* ISTDrawImageShader.m in Sources */,
+				75D96AE91555939F00192F60 /* ISTFractalHUD.m in Sources */,
+				75D96AEA1555939F00192F60 /* ISTFractalTile.m in Sources */,
+				75D96AEB1555939F00192F60 /* ISTGLImage.m in Sources */,
+				75D96AEC1555939F00192F60 /* ISTHandMadeUIImage.m in Sources */,
+				75D96AED1555939F00192F60 /* ISTMegaFractal.m in Sources */,
+				75D96AEE1555939F00192F60 /* ISTMegaFractalShader.m in Sources */,
+				75D96AEF1555939F00192F60 /* ISTShader.m in Sources */,
+				75D96AF01555939F00192F60 /* ISTTileGenerator.m in Sources */,
+				75D96AF5155593AD00192F60 /* ISTUIUtility.m in Sources */,
+				75D96AF6155593AD00192F60 /* ISTUtility.m in Sources */,
+				75D96AFC155595D200192F60 /* megaFractal.fsh in Sources */,
+				75D96AFD155595D200192F60 /* megaFractal.vsh in Sources */,
+				75D96AFE155595D200192F60 /* renderImage.fsh in Sources */,
+				75D96AFF155595D200192F60 /* renderImage.vsh in Sources */,
+				75DDE58F155C18BA00728228 /* ftExtendedHitAreaViewContainer.m in Sources */,
+				75D23D9215616A4E00F037DE /* FractalGridCalc.m in Sources */,
+				75D23D95156404D800F037DE /* ISTIterationSelection.m in Sources */,
+				75D23D98156559F500F037DE /* ShaderSource.m in Sources */,
+				75D23DA1156BCEDE00F037DE /* ftRenderTarget.m in Sources */,
+				75D23DA6156D28C900F037DE /* ftPostProcessBlendShader.m in Sources */,
+				75D23DA9156D2B3100F037DE /* ftPostProcessImage.m in Sources */,
+				75D23DB2156D30E000F037DE /* blendImage.fsh in Sources */,
+				75D23DB7156D43F400F037DE /* blendImage.vsh in Sources */,
+				75F973251571D15E001F106D /* ftTextureSelection.m in Sources */,
+				75F9732F157509B3001F106D /* ftTilePrioritySorting.m in Sources */,
+				75F97333157525BE001F106D /* ftGlobalStates.m in Sources */,
+				75EC36AE1693129C0025D168 /* ftCoordsEnterViewController.m in Sources */,
+				75EC36B416932CF90025D168 /* ftTipsViewController.m in Sources */,
+				757BA83216B5283600AF565A /* iRate.m in Sources */,
+				7578AA5616BCF5F5002E465B /* ftBuyViewController.m in Sources */,
+				7578AA5A16BCF8AC002E465B /* ftColorLoverBuyViewController.m in Sources */,
+				7578AA6816BE143C002E465B /* ftSpeedingBuyViewController.m in Sources */,
+				7578AA6C16BE33A2002E465B /* ftCollectorBuyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757BA74A16B519AA00AF565A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757BA74B16B519AA00AF565A /* main.m in Sources */,
+				757BA74C16B519AA00AF565A /* ftAppDelegate.m in Sources */,
+				757BA74D16B519AA00AF565A /* CoreDataTableViewController.m in Sources */,
+				757BA74E16B519AA00AF565A /* ISTAddToFavoritesViewController.m in Sources */,
+				757BA74F16B519AA00AF565A /* ISTFavoritesViewController.m in Sources */,
+				757BA75016B519AA00AF565A /* ISTFractalSettingsViewController.m in Sources */,
+				757BA75116B519AA00AF565A /* ISTFractalViewController.m in Sources */,
+				757BA75216B519AA00AF565A /* ISTFullListViewController.m in Sources */,
+				757BA75316B519AA00AF565A /* ISTInfoViewController.m in Sources */,
+				757BA75416B519AA00AF565A /* ISTMoreViewController.m in Sources */,
+				757BA75516B519AA00AF565A /* ISTTableViewController.m in Sources */,
+				757BA75616B519AA00AF565A /* ISTShaderManager.m in Sources */,
+				757BA75716B519AA00AF565A /* ISTShaderManager+WriteDefaultData.m in Sources */,
+				757BA75816B519AA00AF565A /* Model.xcdatamodeld in Sources */,
+				757BA75916B519AA00AF565A /* FractalPointCalcDouble.c in Sources */,
+				757BA75A16B519AA00AF565A /* FractalPointCalcSingle.c in Sources */,
+				757BA75B16B519AA00AF565A /* FractalSRCalc.c in Sources */,
+				757BA75C16B519AA00AF565A /* ISTButton.m in Sources */,
+				757BA75D16B519AA00AF565A /* ISTColorCalculator.m in Sources */,
+				757BA75E16B519AA00AF565A /* ISTColorSelection.m in Sources */,
+				757BA75F16B519AA00AF565A /* ISTDrawImageShader.m in Sources */,
+				757BA76016B519AA00AF565A /* ISTFractalHUD.m in Sources */,
+				757BA76116B519AA00AF565A /* ISTFractalTile.m in Sources */,
+				757BA76216B519AA00AF565A /* ISTGLImage.m in Sources */,
+				757BA76316B519AA00AF565A /* ISTHandMadeUIImage.m in Sources */,
+				757BA76416B519AA00AF565A /* ISTMegaFractal.m in Sources */,
+				757BA76516B519AA00AF565A /* ISTMegaFractalShader.m in Sources */,
+				757BA76616B519AA00AF565A /* ISTShader.m in Sources */,
+				757BA76716B519AA00AF565A /* ISTTileGenerator.m in Sources */,
+				757BA76816B519AA00AF565A /* ISTUIUtility.m in Sources */,
+				757BA76916B519AA00AF565A /* ISTUtility.m in Sources */,
+				757BA76A16B519AA00AF565A /* megaFractal.fsh in Sources */,
+				757BA76B16B519AA00AF565A /* megaFractal.vsh in Sources */,
+				757BA76C16B519AA00AF565A /* renderImage.fsh in Sources */,
+				757BA76D16B519AA00AF565A /* renderImage.vsh in Sources */,
+				757BA76E16B519AA00AF565A /* ftExtendedHitAreaViewContainer.m in Sources */,
+				757BA76F16B519AA00AF565A /* FractalGridCalc.m in Sources */,
+				757BA77016B519AA00AF565A /* ISTIterationSelection.m in Sources */,
+				757BA77116B519AA00AF565A /* ShaderSource.m in Sources */,
+				757BA77216B519AA00AF565A /* ftRenderTarget.m in Sources */,
+				757BA77316B519AA00AF565A /* ftPostProcessBlendShader.m in Sources */,
+				757BA77416B519AA00AF565A /* ftPostProcessImage.m in Sources */,
+				757BA77516B519AA00AF565A /* blendImage.fsh in Sources */,
+				757BA77616B519AA00AF565A /* blendImage.vsh in Sources */,
+				757BA77716B519AA00AF565A /* ftTextureSelection.m in Sources */,
+				757BA77816B519AA00AF565A /* ftTilePrioritySorting.m in Sources */,
+				757BA77916B519AA00AF565A /* ftGlobalStates.m in Sources */,
+				757BA77A16B519AA00AF565A /* ftCoordsEnterViewController.m in Sources */,
+				757BA77B16B519AA00AF565A /* ftTipsViewController.m in Sources */,
+				757BA83316B5283600AF565A /* iRate.m in Sources */,
+				7578AA5716BCF5F5002E465B /* ftBuyViewController.m in Sources */,
+				7578AA5B16BCF8AC002E465B /* ftColorLoverBuyViewController.m in Sources */,
+				7578AA6916BE143C002E465B /* ftSpeedingBuyViewController.m in Sources */,
+				7578AA6D16BE33A2002E465B /* ftCollectorBuyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		75397E181553C2990085D416 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75397E191553C2990085D416 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		75397E211553C2990085D416 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75397E221553C2990085D416 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75397E271553C2990085D416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75397E281553C2990085D416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75397E2A1553C29A0085D416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fractal Touch/Fractal Touch-Prefix.pch";
+				INFOPLIST_FILE = "Fractal Touch/Fractal Touch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pb01005051.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = iFractalTouch;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		75397E2B1553C29A0085D416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fractal Touch/Fractal Touch-Prefix.pch";
+				INFOPLIST_FILE = "Fractal Touch/Fractal Touch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pb01005051.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = iFractalTouch;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		757BA7B416B519AA00AF565A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fractal Touch/Fractal Touch-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Fractal Touch Free-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pb01005051.iFractalTouchFree;
+				PRODUCT_NAME = "iFractalTouch Free";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		757BA7B516B519AA00AF565A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fractal Touch/Fractal Touch-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Fractal Touch Free-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pb01005051.iFractalTouchFree;
+				PRODUCT_NAME = "iFractalTouch Free";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		757BA7B616B519AA00AF565A /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: WU HAO";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fractal Touch/Fractal Touch-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Fractal Touch Free-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pb01005051.iFractalTouchFree;
+				PRODUCT_NAME = "iFractalTouch Free";
+				"PROVISIONING_PROFILE[sdk=*]" = "59060199-64B1-4E3F-A428-858510B53B91";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = AppStore;
+		};
+		75EC36B51698758C0025D168 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		75EC36B61698758C0025D168 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fractal Touch/Fractal Touch-Prefix.pch";
+				INFOPLIST_FILE = "Fractal Touch/Fractal Touch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pb01005051.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = iFractalTouch;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = AppStore;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75397E051553C2990085D416 /* Build configuration list for PBXProject "Fractal Touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75397E271553C2990085D416 /* Debug */,
+				75397E281553C2990085D416 /* Release */,
+				75EC36B51698758C0025D168 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75397E291553C29A0085D416 /* Build configuration list for PBXNativeTarget "Fractal Touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75397E2A1553C29A0085D416 /* Debug */,
+				75397E2B1553C29A0085D416 /* Release */,
+				75EC36B61698758C0025D168 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		757BA7B316B519AA00AF565A /* Build configuration list for PBXNativeTarget "Fractal Touch Free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757BA7B416B519AA00AF565A /* Debug */,
+				757BA7B516B519AA00AF565A /* Release */,
+				757BA7B616B519AA00AF565A /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		75D96AAA155592EC00192F60 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				75D96AAB155592EC00192F60 /* Model.xcdatamodel */,
+			);
+			currentVersion = 75D96AAB155592EC00192F60 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 75397E021553C2990085D416 /* Project object */;
+}

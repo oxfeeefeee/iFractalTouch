@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11D50d" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="FractalBookmark" representedClassName="ShaderSource" syncable="YES">
+        <attribute name="colorIndex" attributeType="Integer 32" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" defaultDateTimeInterval="357796800" defaultValueString="2012-05-04 12:00:00 +0800" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="favorite" optional="YES" attributeType="Integer 32" defaultValueString="-1" syncable="YES"/>
+        <attribute name="im" attributeType="String" syncable="YES"/>
+        <attribute name="iterCountIndex" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="re" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnail" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="zomming" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FractalBookmark" positionX="-1890" positionY="-1998" width="128" height="180"/>
+    </elements>
+</model>
