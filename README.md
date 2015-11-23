@@ -1,6 +1,8 @@
 iFractalTouch
 =====
 
+AppStore url: https://appsto.re/cn/_YXqJ.i
+
 A fast Mandelbrot set zoomer, which uses CPU SIMD to calulate tiled images and then uses OpenGL to render it at high FPS, so that the UI interaction is smooth.
 
 What might be interesting
@@ -11,8 +13,7 @@ What might be interesting
 
 Why written and released
 ----
-This was my first iOS project to learn iOS development back in 2012, and it’s still on AppStore: https://appsto.re/cn/_YXqJ.i
-I do not intend to maintain the code anymore, I decided to release the code (which might be a bit messy) so that it doesn’t get lost, Even better if anyone finds it interesting.
+This was my first iOS project to learn iOS development back in 2012. I do not intend to maintain the code anymore, I decided to release the code (which might be a bit messy) so that it doesn’t get lost, Even better if anyone finds it interesting.
 
 Note
 ----
