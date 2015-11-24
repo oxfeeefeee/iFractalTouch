@@ -2,6 +2,11 @@ iFractalTouch
 =====
 
 AppStore url: https://appsto.re/cn/_YXqJ.i
+![alt tag](https://github.com/oxfeeefeee/iFractalTouch/blob/master/Screenshot/1.jpg)
+![alt tag](https://github.com/oxfeeefeee/iFractalTouch/blob/master/Screenshot/2.jpg)
+![alt tag](https://github.com/oxfeeefeee/iFractalTouch/blob/master/Screenshot/3.jpg)
+![alt tag](https://github.com/oxfeeefeee/iFractalTouch/blob/master/Screenshot/4.jpg)
+![alt tag](https://github.com/oxfeeefeee/iFractalTouch/blob/master/Screenshot/5.jpg)
 
 A fast Mandelbrot set zoomer, which uses CPU SIMD to calulate tiled images and then uses OpenGL to render it at high FPS, so that the UI interaction is smooth.
 
